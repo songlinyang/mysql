@@ -1,5 +1,9 @@
-create table `name_info` (
-	'id'  int(11) not null,
-	'name' varchar(12) collate utf8mb4_unicode_ci default null,
-	primary key(`id`)
+CREATE TABLE Persons
+(
+PersonID int,
+LastName varchar(500),
+FirstName varchar(500),
+Address varchar(500),
+City varchar(500),
+ProCity varchar(500)
 );
